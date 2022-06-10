@@ -1,10 +1,8 @@
 import React from 'react';
-import {Platform} from 'react-native';
+
 import {
   View,
   Text,
-  Flatlist,
-  Animated,
   Image,
   Dimensions,
   StyleSheet,
@@ -24,7 +22,7 @@ const Popular2 = (props) => {
       <Image
         source={{uri: props.data.PhotoUrl}}
         resizeMod="center"
-        style={{width: "100%", height: 100}}
+        style={{width: '100%', height: 100}}
       />
       <View>
         <Text style={styles.title}>{props.data.Category}</Text>
@@ -108,11 +106,11 @@ const styles = StyleSheet.create({
   },
   iconContainer: {
     flexDirection: 'row',
-    alignItems: "center",
-    justifyContent: "space-between",
-    position: "absolute",
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    position: 'absolute',
     bottom: 5,
-    left: 5
+    left: 5,
     // marginHorizontal: 3,
   },
 });
