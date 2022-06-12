@@ -11,7 +11,14 @@ import {
   ImageBackground,
   ScrollView,
 } from 'react-native';
-import {Container, Header, Left, Right, Body} from 'native-base';
+// import {Container
+//   //  Header, Left, Right, Body
+//   } from 'native-base';
+import { Container } from 'native-base';
+import {Header} from 'native-base'
+import {Left} from 'native-base'
+import {Right} from 'native-base'
+import {Body} from 'native-base'
 import Chart from '../components/Chart/chart';
 import Popular2 from '../components/Popular/Popular2';
 // import {Platform} from 'react-native';
@@ -82,7 +89,7 @@ const Home = ({navigation}) => {
   return (
     <Container style={styles.container}>
       <StatusBar hidden />
-      <Header style={styles.header}>
+      {/* <Header style={styles.header}>
         <Left style={styles.left} />
         <Body style={styles.body}>
           <Image
@@ -94,7 +101,7 @@ const Home = ({navigation}) => {
           />
         </Body>
         <Right style={styles.right} />
-      </Header>
+      </Header> */}
       <ImageBackground
         resizeMode="cover"
         source={require('../Images/bg20.png')}
