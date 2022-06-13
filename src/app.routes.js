@@ -20,11 +20,10 @@ import {
   FilterPageAMZ,
   Packages,
   PackageDetailFull,
-  PackageDetailStandart,
+  PackageDetailStandart
 } from './pages';
 
 import Uyelik from '../src/pages/Uyelik';
-
 import AnimationSearch from './components/AnimationSearch';
 import Favorites from './pages/Favorites';
 import Colors from './Themes/Colors';
